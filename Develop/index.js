@@ -52,34 +52,34 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-// function init() {
-//     inquirer.prompt(questions)
-//     .then((answers) => {
-//         console.log(answers)
+function init() {
+    inquirer.prompt(questions)
+    .then((answers) => {
+        console.log(answers)
 
-//         const template = `
-// # ${answers.title}
+        const template = `
+# ${answers.title}
 
-// ## Description
-// ${answers.description}
+## Description
+${answers.description}
 
-// ## Installation
-// ${answers.installation}
+## Installation
+${answers.installation}
 
-// ## Usage Information
-// ${answers.usage}
+## Usage Information
+${answers.usage}
 
-// ## Contribution Guidelines 
-// ${answers.contribution}
+## Contribution Guidelines 
+${answers.contribution}
 
-// ## Test Instructions
-// ${answers.tests}
+## Test Instructions
+${answers.tests}
 
-// ## License
-// ${answers.license}
+## License
+${answers.license}
 
 // ## Questions 
 // // Enter github user name and append it as link to README
@@ -89,18 +89,18 @@ const questions = [
 
 // ## Table of Contents
 
-//         `
+        `
 
-//         console.log(template)
+        console.log(template)
 
-//         fs.writeFile("./output/README.md", template, () => {
-//             console.log("README successfully generated!")
-//         })
-//     })
-// }
+        fs.writeFile("./output/README.md", template, () => {
+            console.log("README successfully generated!")
+        })
+    })
+}
 
-// // Function call to initialize app
-// init();
+// Function call to initialize app
+init();
 
 
 // TABLE OF CONTENTS 
