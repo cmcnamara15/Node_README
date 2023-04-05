@@ -54,36 +54,28 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, answers){}
+function writeToFile(fileName, answers){
+    return fs.writeFileSync(fileName, answers);
+}
 
 
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions)
+    inquirer
+    .prompt(questions)
     .then((answers) => {
-        fs.writeFile("./output/README.md", generateMarkdown(answers), () => {
+        writeToFile("./output/README.md", generateMarkdown(answers), () => {
             console.log("README successfully generated!")
         })
         console.log(answers)
     
 
-//         const template = `
-// // ## Questions 
-// // // Enter github user name and append it as link to README
-// // // Enter email with template attached text on how to reach me with additional questions. 
-
-// // If you have any questions please feel free to reach out to @${answers.github} on github or email ${answers.email}.
-
-// // ## Table of Contents
-// `  
     }
 )}
-writeToFile();
+// writeToFile();
 
 // Function call to initialize app
 init();
 
 
-// TABLE OF CONTENTS 
-// when i click on link in the Table of Contents THEN I am taken to the corresponding section of the README

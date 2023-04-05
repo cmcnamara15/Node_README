@@ -32,7 +32,15 @@ function generateMarkdown(answers) {
 # ${answers.title}
 
 
-#${renderLicenseBadge(license)}
+#${renderLicenseBadge(answers.license)}
+
+## Table of Contents 
+- [Description](#description)
+- [Installation](#installation)
+- [Usage Information](#information)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Test Instructions](#test-instructions)
+- [License](#license)
 
 ## Description
 ${answers.description}
@@ -52,6 +60,8 @@ ${answers.tests}
 ## License
 ${answers.license}
 
+## Questions 
+If you have any questions please feel free to reach out to @${answers.github} on github or email ${answers.email}.
 
 `;
 
