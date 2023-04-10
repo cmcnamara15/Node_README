@@ -1,5 +1,5 @@
 
-# xxx
+# README Generator
 
 
 #[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -14,19 +14,19 @@
 - [License](#license)
 
 ## Description
-xxx
+This project was built using the node package inquirer. The purpose of this assignment was to generate a readme file here in the command line and getting used to some of nodes packages.
 
 ## Installation
-xxx
+NodeJS & inquirer
 
 ## Usage Information
-xxx
+The user should be familiar with Markdown and basic documentation.
 
 ## Contribution Guidelines 
 undefined
 
 ## Test Instructions
-xxx
+None
 
 ## License
 MIT
