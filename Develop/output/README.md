@@ -1,8 +1,9 @@
 
-# XXX
+# README_Generator
 
 
-#[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+#[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    
 
 ## Table of Contents 
 - [Description](#description)
@@ -13,22 +14,22 @@
 - [License](#license)
 
 ## Description
-XXX
+This project was built to generate a README file for the user. Using inquirer to promt the user to answer questions and writting their answers to a markdownfile.
 
 ## Installation
-XXX
+Nodejs & Inquirer@6.3.1
 
 ## Usage Information
-XXXX
+The user should be familiar with the basic formatting of README files.
 
 ## Contribution Guidelines 
-undefined
+Obtained starter code from the UT bootcamp.
 
 ## Test Instructions
-XXX
+none
 
 ## License
-IBM
+MIT
 
 ## Questions 
 If you have any questions please feel free to reach out to [cmcnamara15](https://github.com/cmcnamara15) on github or email cmcnamara1991@icloud.com.

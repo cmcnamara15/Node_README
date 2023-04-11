@@ -52,7 +52,7 @@ ${answers.installation}
 ${answers.usage}
 
 ## Contribution Guidelines 
-${answers.contribution}
+${answers.contributions}
 
 ## Test Instructions
 ${answers.tests}
