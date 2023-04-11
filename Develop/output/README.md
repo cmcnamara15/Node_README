@@ -1,36 +1,35 @@
 
-# README Generator
+# XXX
 
 
-#[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-    
+#[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 
 ## Table of Contents 
 - [Description](#description)
 - [Installation](#installation)
-- [Usage Information](#information)
+- [Usage Information](#usage-information)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Test Instructions](#test-instructions)
 - [License](#license)
 
 ## Description
-This project was built using the node package inquirer. The purpose of this assignment was to generate a readme file here in the command line and getting used to some of nodes packages.
+XXX
 
 ## Installation
-NodeJS & inquirer
+XXX
 
 ## Usage Information
-The user should be familiar with Markdown and basic documentation.
+XXXX
 
 ## Contribution Guidelines 
 undefined
 
 ## Test Instructions
-None
+XXX
 
 ## License
-MIT
+IBM
 
 ## Questions 
-If you have any questions please feel free to reach out to @cmcnamara15 on github or email cmcnamara1991@icloud.com.
+If you have any questions please feel free to reach out to [cmcnamara15](https://github.com/cmcnamara15) on github or email cmcnamara1991@icloud.com.
 

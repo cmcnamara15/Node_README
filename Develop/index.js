@@ -36,7 +36,7 @@ const questions = [
         message: "What are the test instructions for this project?"
     },
     {
-        type: "input",
+        type: "list",
         name: "license",
         message: "Which license would you like?",
         choices: ["IBM", "MIT", "WTFPL", "Apache", "None"]

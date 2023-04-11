@@ -37,7 +37,7 @@ function generateMarkdown(answers) {
 ## Table of Contents 
 - [Description](#description)
 - [Installation](#installation)
-- [Usage Information](#information)
+- [Usage Information](#usage-information)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Test Instructions](#test-instructions)
 - [License](#license)
@@ -61,7 +61,7 @@ ${answers.tests}
 ${answers.license}
 
 ## Questions 
-If you have any questions please feel free to reach out to @${answers.github} on github or email ${answers.email}.
+If you have any questions please feel free to reach out to [${answers.github}](https://github.com/${answers.github}) on github or email ${answers.email}.
 
 `;
 
