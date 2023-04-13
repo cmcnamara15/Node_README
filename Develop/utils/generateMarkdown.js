@@ -1,3 +1,4 @@
+// Function that renders a license on the page 
 function renderLicenseBadge(license) {
   if(license === 'IBM'){
     return `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)`
@@ -15,14 +16,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-
-
-// function renderLicenseLink(license) {}
-
-
-// function renderLicenseSection(license) {}
-
-
+// Function that holds the template for the README and inputs the users Answers.
 function generateMarkdown(answers) {
   return `
 # ${answers.title}

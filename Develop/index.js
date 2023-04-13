@@ -1,8 +1,9 @@
+// Created variables that pull in the external modules locate in separate files
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown")
 
-
+// Questions array to be called later in the init() function 
 const questions = [
     {
         type: "input",
@@ -52,14 +53,14 @@ const questions = [
     },
 ];
 
-
+// Function that writes the answers to a output file 
 function writeToFile(fileName, answers){
     return fs.writeFileSync(fileName, answers);
 }
 
 
 
-
+// Main function called to generate markdown file 
 function init() {
     inquirer
     .prompt(questions)
