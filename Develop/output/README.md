@@ -1,8 +1,8 @@
 
-# README_Generator
+# README Generator
 
 
-#[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+#[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
     
 
 ## Table of Contents 
@@ -14,22 +14,22 @@
 - [License](#license)
 
 ## Description
-This project was built to generate a README file for the user. Using inquirer to promt the user to answer questions and writting their answers to a markdownfile.
+test
 
 ## Installation
-Nodejs & Inquirer@6.3.1
+test
 
 ## Usage Information
-The user should be familiar with the basic formatting of README files.
+test
 
 ## Contribution Guidelines 
-Obtained starter code from the UT bootcamp.
+test
 
 ## Test Instructions
-none
+test
 
 ## License
-MIT
+Apache
 
 ## Questions 
 If you have any questions please feel free to reach out to [cmcnamara15](https://github.com/cmcnamara15) on github or email cmcnamara1991@icloud.com.
